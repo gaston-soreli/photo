@@ -1,6 +1,6 @@
 // Identifiants "hardcodés" (à toi de les changer)
-const VALID_USERNAME = "moi";
-const VALID_PASSWORD = "secret123";
+const VALID_USERNAME = "antoineventurini";
+const VALID_PASSWORD = "Tinou1403";
 
 const loginContainer = document.getElementById("login-container");
 const app = document.getElementById("app");
