@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Ma galerie privée</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Écran de connexion -->
+  <div id="login-container">
+    <h1>Ma galerie privée</h1>
+    <p>Connecte-toi pour voir tes photos</p>
+    <form id="login-form">
+      <label for="username">Identifiant</label>
+      <input type="text" id="username" required>
+
+      <label for="password">Mot de passe</label>
+      <input type="password" id="password" required>
+
+      <button type="submit">Se connecter</button>
+      <p id="login-error"></p>
+    </form>
+  </div>
+
+  <!-- Page d'accueil + galerie (cachée au début) -->
+  <div id="app" class="hidden">
+    <header>
+      <h1>Bienvenue dans ta galerie</h1>
+      <button id="logout-btn">Se déconnecter</button>
+    </header>
+
+    <main>
+      <section class="intro">
+        <h2>Mes photos</h2>
+        <p>Un petit coin privé pour stocker tes souvenirs.</p>
+      </section>
+
+      <section class="gallery">
+        <!-- Remplace les src par tes vraies images -->
+        <img src="images/photo1.jpg" alt="Photo 1">
+        <img src="images/photo2.jpg" alt="Photo 2">
+        <img src="images/photo3.jpg" alt="Photo 3">
+        <img src="images/photo4.jpg" alt="Photo 4">
+        <img src="images/photo5.jpg" alt="Photo 5">
+        <img src="images/photo6.jpg" alt="Photo 6">
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
